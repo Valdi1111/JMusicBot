@@ -1,0 +1,2 @@
+REL|0.2.5|https://github.com/Rsl1122/Plan-PlayerAnalytics/releases/download/4.1.7/Plan-4.1.7.jar|https://www.spigotmc.org/resources/plan-player-analytics.32536/update?update=214180
+# This file is used for bot updating.
