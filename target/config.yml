@@ -1,0 +1,93 @@
+# ##########################################################
+# #  Config for the JMusicBot                              #
+# ##########################################################
+# #  Any line starting with # is ignored                   #
+# #  You MUST set the token and owner                      #
+# #  All other items have defaults if you don't set them   #
+# #  Open in Notepad++ for best results                    #
+# ##########################################################
+# This sets the token for the bot to log in with
+# This MUST be a bot token (user tokens will not work)
+# If you don't know how to get a bot token, please see the guide here:
+# https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
+token: NjM0MTA3ODE3NDA1NDQ4MjAy.XaiDlA.it7e3UzzAZNa4FTLS_av5VeZb4k
+client-id: 634107817405448202
+client-secret: Oql-rD8ISgAHioPEmxU_HQ3ZS3bxDeQg
+# This sets the owner of the bot
+# This needs to be the owner's ID (a 17-18 digit number)
+# https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
+owner: 254178121199124490
+youtube-dl-path: '%datafolder%/youtube-dl.exe'
+prefix: '@mention'
+game:
+  name: default
+  url: ''
+  game-type: 0
+status: ONLINE
+song-in-status: false
+alt-prefix: m!
+emojis:
+  success: 🎶
+  warning: 💡
+  error: 🚫
+  loading: ⌚
+  searching: 🔎
+help: help
+now-playing-images: true
+stay-in-channel: false
+max-time: 0
+update:
+  # Enable or disable update checking
+  check: true
+  # Display update notification on the website
+  alerts-owner: true
+  # Display update notification on the website
+  alerts-web: true
+  # Also notify about dev versions
+  dev-versions: true
+lyrics:
+  default: A-Z Lyrics
+eval: false
+webserver:
+  active: true
+  port: 12126
+  # InternalIP usually does not need to be changed, only change it if you know what you're doing!
+  # 0.0.0.0 allocates Internal (local) IP automatically for the WebServer.
+  internal-ip: 0.0.0.0
+  # %port% is replaced automatically with webserver.port
+  external-ip: 2.224.170.54:%port%
+  external-address: http://2.224.170.54:12126
+ssl:
+  keystore-path: Cert.jks
+  key-pass: default
+  store-pass: default
+  alias: alias
+locale: EN
+theme: default
+# UTC used if false. Only affects Timestamps and graphs.
+use-server-timezone: true
+formatting:
+  decimal-points: '#.##'
+  time-amount:
+    year: '1 year, '
+    years: '%years% years, '
+    month: '1 month, '
+    months: '%months% months, '
+    day: '1d '
+    days: '%days%d '
+    hours: '%hours%:'
+    minutes: '%minutes%:'
+    seconds: '%seconds%'
+    zero: 0s
+  dates:
+    # Dates settings use Java SimpleDateFormat.
+    # You can find the patterns & examples here:
+    # https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+    full: MMM d YYYY, HH:mm:ss
+    no-seconds: MMM d YYYY, HH:mm
+    just-clock: HH:mm:ss
+    show-day-names:
+      # Replaces day number with Today, Yesterday, Wednesday etc.
+      active: true
+      # Non-regex pattern to replace.
+      pattern: MMM d YYYY
